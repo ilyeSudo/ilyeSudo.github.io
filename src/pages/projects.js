@@ -6,7 +6,10 @@ import Layout from './../components/Layout';
 const ProjectsPageInner = props => {
   return (
     <div>
-      <h3>wip...</h3>
+      <br />
+      <br />
+      <br />
+      <p>// TODO: add projects section</p>
     </div>
   );
 };

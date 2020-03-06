@@ -88,7 +88,9 @@ const Layout = ({ children }) => {
 
       <StyledHeader>
         <StyledTitle>
-          <TitleLink to="/">Ilyes Houdjedje ( IlyeSudo )</TitleLink>
+          <TitleLink to="/about">
+            Ilyes Houdjedje ( Junior Full-Stack JS Develper )
+          </TitleLink>
         </StyledTitle>
 
         <Nav />

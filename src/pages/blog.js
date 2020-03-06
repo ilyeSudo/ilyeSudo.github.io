@@ -6,7 +6,10 @@ import Layout from './../components/Layout';
 const BlogPageInner = props => {
   return (
     <div>
-      <h3>wip...</h3>
+      <br />
+      <br />
+      <br />
+      <p>// TODO: add blog section</p>
     </div>
   );
 };

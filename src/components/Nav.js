@@ -78,6 +78,7 @@ const NavItem = styled(Link).attrs({
   }
 
   &.${activeClassName} {
+    color: blue;
     font-weight: bold;
   }
 `;
@@ -92,13 +93,18 @@ const Nav = () => {
           </NavItem>
         </ListElement>
         <ListElement>
-          <NavItem to="/blog/" activeClassName={activeClassName}>
-            blog
+          <NavItem to="/projects/" activeClassName={activeClassName}>
+            projects
           </NavItem>
         </ListElement>
         <ListElement>
-          <NavItem to="/projects/" activeClassName={activeClassName}>
-            projects
+          <NavItem to="/talks/" activeClassName={activeClassName}>
+            talks
+          </NavItem>
+        </ListElement>
+        <ListElement>
+          <NavItem to="/blog/" activeClassName={activeClassName}>
+            blog
           </NavItem>
         </ListElement>
       </StyledList>
