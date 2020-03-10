@@ -42,7 +42,7 @@ const StyledTitle = styled.h1`
 `;
 
 const TitleLink = styled(Link)`
-  text-transform: lowercase;
+  font-size: 40px;
   color: #000;
   text-decoration: none;
   border: none;
@@ -89,7 +89,7 @@ const Layout = ({ children }) => {
       <StyledHeader>
         <StyledTitle>
           <TitleLink to="/about">
-            Ilyes Houdjedje ( Full-Stack JS Develper )
+            Ilyes Houdjedje <br />( Full-Stack JS Developer )
           </TitleLink>
         </StyledTitle>
 
