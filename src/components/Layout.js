@@ -13,8 +13,11 @@ import Favicon from './../components/Favicon';
 import GlobalStyle from './GlobalStyle';
 
 const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   max-width: 83rem;
-  padding: 1em 1em 2em;
+  padding: 0em 0em 2em;
   margin: 0 auto;
 
   @media (min-width: 350px) {
@@ -27,6 +30,12 @@ const Main = styled.main`
 `;
 
 const StyledHeader = styled.header``;
+const Body = styled.body`
+  flex: 1;
+`;
+const Footer = styled.footer`
+  align-self: left;
+`;
 
 const StyledTitle = styled.h1`
   // margin-bottom: 2rem;
@@ -95,8 +104,16 @@ const Layout = ({ children }) => {
 
         <Nav />
       </StyledHeader>
-
-      {children}
+      <Body>{children}</Body>
+      <Footer>
+        IlyeSudo © 2020{' '}
+        <a
+          href="https://github.com/ilyeSudo/ilyeSudo.github.io"
+          target="_blank"
+        >
+          Source Code
+        </a>
+      </Footer>
     </Main>
   );
 };

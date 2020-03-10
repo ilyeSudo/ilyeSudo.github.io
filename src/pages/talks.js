@@ -6,8 +6,6 @@ const TalksPageInner = props => {
   return (
     <div>
       <br />
-      <br />
-      <br />
       <h1>Google Developers Group Algeria</h1>
       <ul>
         <li>
@@ -22,7 +20,7 @@ const TalksPageInner = props => {
             href="https://www.meetup.com/fr-FR/GDG-Constantine/events/264011930/"
             target="_blank"
           >
-            2019-11-28 | React Native & CI/CD with MSFT AppCenter | DevFest'19
+            2019-11-28 | React Native CI/CD with MSFT AppCenter | DevFest'19
             Constantine
           </a>
         </li>
