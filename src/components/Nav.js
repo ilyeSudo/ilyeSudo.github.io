@@ -107,6 +107,11 @@ const Nav = () => {
             blog
           </NavItem>
         </ListElement>
+        <ListElement>
+          <NavItem to="/resume/" activeClassName={activeClassName}>
+            resume
+          </NavItem>
+        </ListElement>
       </StyledList>
     </StyledNav>
   );
