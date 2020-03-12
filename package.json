@@ -7,7 +7,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build --verbose",
     "serve": "gatsby serve --verbose",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths ; gh-pages -d public -b master"
   },
   "dependencies": {
     "@loadable/component": "^5.7.0",
