@@ -54,6 +54,16 @@ const TalksPageInner = props => {
             Study Jam
           </a>
         </li>
+        <br />
+        <li>
+          <a
+            href="https://www.meetup.com/GDG-Ghardaia/events/269382809/"
+            target="_blank"
+          >
+            2020-03-14 | Hands-on Qwiklabs & GCP Essentials codelab | GCP Study
+            Jam
+          </a>
+        </li>
       </ul>
     </div>
   );
